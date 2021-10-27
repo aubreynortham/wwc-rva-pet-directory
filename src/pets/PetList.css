@@ -45,6 +45,17 @@
   border-style: dotted;
 }
 
+.bakancito .pet-pic {
+  border-color: rgb(100, 0, 0);
+  border-style: dotted;
+}
+
+.bakancito li {
+  display: list-item;
+  list-style-type: "😴";
+  padding-inline-start: 1ch;
+}
+
 .chai .pet-pic {
   border-color: rgb(0, 100, 100);
   border-style: ridge;
