@@ -4,6 +4,7 @@ import Harold from './pics/harold.jpg';
 import Relish from './pics/relish.png';
 import Bakancito from './pics/bakancito.png';
 import Chai from './pics/chai.png';
+import Gobby from './pics/gobby.jpg';
 
 import './PetList.css';
 
@@ -122,6 +123,26 @@ function PetList() {
               "What is a weed? A plant whose virtues have never been discovered."
             </blockquote>
             <figcaption>- Ralph Waldo Emerson</figcaption>
+          </figure>
+        </div>
+      </li>
+      <li className="pet-list-item gobby">
+        <img className="gobby pet-pic" src={Gobby} alt='a brown pitbull snuggled in blankets so only his eyes and ears are showing' />
+        <div>
+          <p className="pet-name">
+            Gobby
+          </p>
+          <p className="pet-title">
+            Goblindo the Lindo Goblin
+          </p>
+          <p>
+            Words to live by:
+          </p>
+          <figure>
+             <blockquote>
+              "Big time sleeper, small time creeper. The ears of a bat, the body of a capybara, this absolute unit is disrupting the sleep industry with his premium nest making skills."
+             </blockquote>
+            <figcaption>- Inventor of the Snuggie</figcaption>
           </figure>
         </div>
       </li>

@@ -72,3 +72,12 @@
   list-style-type: "🐾";
   padding-inline-start: 1ch;
 }
+
+.gobby blockquote {
+  font-family: cursive;
+  font-size: 24px;
+}
+
+.gobby .pet-pic {
+  border: 4px dashed hotpink;
+}
