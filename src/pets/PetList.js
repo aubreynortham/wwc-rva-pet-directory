@@ -1,5 +1,6 @@
 import Francis from './pics/francis.png';
 import Meechum from './pics/meechum.png';
+import Harold from './pics/harold.jpg';
 import Relish from './pics/relish.png';
 import Bakancito from './pics/bakancito.png';
 import Chai from './pics/chai.png';
@@ -105,6 +106,26 @@ function PetList() {
           </ul>
         </div>
       </li>
+      <li className="pet-list-item harold">
+        <img className="pet-pic" src={Harold} alt='an old shepherd dog with his eyes closed and a flower booping him on the head' />
+        <div>
+          <p className="pet-name">
+            Harold
+          </p>
+          <p className="pet-title">
+            Senior Gardener
+          </p>
+          <p>
+            Words to live by:
+          </p>
+          <figure>
+            <blockquote>
+              "What is a weed? A plant whose virtues have never been discovered."
+            </blockquote>
+            <figcaption>- Ralph Waldo Emerson</figcaption>
+          </figure>
+        </div>
+      </li>
       <li className="pet-list-item gobby">
         <img className="gobby pet-pic" src={Gobby} alt='a brown pitbull snuggled in blankets so only his eyes and ears are showing' />
         <div>
@@ -114,10 +135,15 @@ function PetList() {
           <p className="pet-title">
             Goblindo the Lindo Goblin
           </p>
-          <blockquote>
+          <p>
+            Words to live by:
+          </p>
+          <figure>
+             <blockquote>
               "Big time sleeper, small time creeper. The ears of a bat, the body of a capybara, this absolute unit is disrupting the sleep industry with his premium nest making skills."
-            </blockquote>
+             </blockquote>
             <figcaption>- Inventor of the Snuggie</figcaption>
+          </figure>
         </div>
       </li>
     </ul>
