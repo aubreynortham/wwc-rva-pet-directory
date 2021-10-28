@@ -3,6 +3,7 @@ import Meechum from './pics/meechum.png';
 import Relish from './pics/relish.png';
 import Bakancito from './pics/bakancito.png';
 import Chai from './pics/chai.png';
+import Gobby from './pics/gobby.jpg';
 
 import './PetList.css';
 
@@ -102,6 +103,21 @@ function PetList() {
             <li>Will work for ear rubs</li>
             <li>Will work even harder for tuna</li>
           </ul>
+        </div>
+      </li>
+      <li className="pet-list-item gobby">
+        <img className="gobby pet-pic" src={Gobby} alt='a brown pitbull snuggled in blankets so only his eyes and ears are showing' />
+        <div>
+          <p className="pet-name">
+            Gobby
+          </p>
+          <p className="pet-title">
+            Goblindo the Lindo Goblin
+          </p>
+          <blockquote>
+              "Big time sleeper, small time creeper. The ears of a bat, the body of a capybara, this absolute unit is disrupting the sleep industry with his premium nest making skills."
+            </blockquote>
+            <figcaption>- Inventor of the Snuggie</figcaption>
         </div>
       </li>
     </ul>
