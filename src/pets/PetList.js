@@ -1,5 +1,6 @@
 import Francis from './pics/francis.png';
 import Meechum from './pics/meechum.png';
+import Harold from './pics/harold.jpg';
 import Relish from './pics/relish.png';
 import Bakancito from './pics/bakancito.png';
 import Chai from './pics/chai.png';
@@ -102,6 +103,26 @@ function PetList() {
             <li>Will work for ear rubs</li>
             <li>Will work even harder for tuna</li>
           </ul>
+        </div>
+      </li>
+      <li className="pet-list-item harold">
+        <img className="pet-pic" src={Harold} alt='an old shepherd dog with his eyes closed and a flower booping him on the head' />
+        <div>
+          <p className="pet-name">
+            Harold
+          </p>
+          <p className="pet-title">
+            Senior Gardener
+          </p>
+          <p>
+            Words to live by:
+          </p>
+          <figure>
+            <blockquote>
+              "What is a weed? A plant whose virtues have never been discovered."
+            </blockquote>
+            <figcaption>- Ralph Waldo Emerson</figcaption>
+          </figure>
         </div>
       </li>
     </ul>
