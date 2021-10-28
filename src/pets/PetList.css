@@ -38,3 +38,10 @@
   font-size: 24px;
   color: rgb(170, 31, 147);
 }
+
+.harold blockquote {
+  color: green;
+  font-size: 24px;
+  font-weight: bold;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

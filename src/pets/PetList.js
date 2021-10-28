@@ -1,5 +1,6 @@
 import Francis from './pics/francis.png';
 import Meechum from './pics/meechum.png';
+import Harold from './pics/harold.jpg';
 
 import './PetList.css';
 
@@ -41,6 +42,26 @@ function PetList() {
               "I don't need permission, make my own decisions. That's my prerogative."
             </blockquote>
             <figcaption>- Britney Spears</figcaption>
+          </figure>
+        </div>
+      </li>
+      <li className="pet-list-item harold">
+        <img className="pet-pic" src={Harold} alt='an old shepherd dog with his eyes closed and a flower booping him on the head' />
+        <div>
+          <p className="pet-name">
+            Harold
+          </p>
+          <p className="pet-title">
+            Senior Gardener
+          </p>
+          <p>
+            Words to live by:
+          </p>
+          <figure>
+            <blockquote>
+              "What is a weed? A plant whose virtues have never been discovered."
+            </blockquote>
+            <figcaption>- Ralph Waldo Emerson</figcaption>
           </figure>
         </div>
       </li>
