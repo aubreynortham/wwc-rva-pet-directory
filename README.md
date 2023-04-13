@@ -17,6 +17,6 @@ Open [http://localhost:3000](http://localhost:3000) to view the site in the brow
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-This project was initialized with [Create React App](https://create-react-app.dev/docs/getting-started). See the documentation for details on folder structure and helpful React tools.
+This project was initialized with [Create React App](https://create-react-app.dev/docs/getting-started). See the above documentation for details on folder structure and helpful information. If you want to learn more about the basics of React, read about its new features, or walk through recommended tutorials, check out the official [React docs](https://react.dev/learn).
 
 Thank you for respecting the [WWC Code of Conduct](https://www.womenwhocode.com/codeofconduct).
