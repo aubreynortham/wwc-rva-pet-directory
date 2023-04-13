@@ -19,4 +19,7 @@ You will also see any lint errors in the console.
 
 This project was initialized with [Create React App](https://create-react-app.dev/docs/getting-started). See the above documentation for details on folder structure and helpful information. If you want to learn more about the basics of React, read about its new features, or walk through recommended tutorials, check out the official [React docs](https://react.dev/learn).
 
+## Questions?
+If you have questions about the project, get stuck with React, or need help getting started, reach out on [slack](https://womenwhocoderva.slack.com/)!
+
 Thank you for respecting the [WWC Code of Conduct](https://www.womenwhocode.com/codeofconduct).
